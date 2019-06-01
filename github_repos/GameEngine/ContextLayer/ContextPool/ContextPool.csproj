@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>GameEngine.ContextPool</AssemblyName>
+    <RootNamespace>GameEngine.ContextPool</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\..\_Binaries\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="PersistenceTopLayer\ModelInstanceManager\Model\Modification\" />
+  </ItemGroup>
+
+</Project>

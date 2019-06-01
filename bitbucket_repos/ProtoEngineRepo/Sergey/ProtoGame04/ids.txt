@@ -1,0 +1,42 @@
+Universal id = 0	=> Means that has no id;
+Tid 	-> 1	-	999
+Id		-> 1001	-	1999
+Pid		-> 2001	-	2999
+Oid		-> 3001	-	3999
+
+
+ProtoModel1:
+Tid
+	1	-	Board
+	2	-	Field
+	3	-	Figure
+Pid
+	2001	-	Size (Board)
+	2002	-	X-Range (Board)
+	2003	-	Y-Range (Board)
+	2004	-	X-koordinate (Field)
+	2005	-	Y-koordinate (Field)
+	2006	-	HasFigure (Field)
+	2007	-	Color (Figure)
+Fid
+	3001	-	Delete
+	3002	-	ChangeColor
+	
+ProtoModel2
+Tid
+	1	-	Board
+	2	-	Field
+	3	-	Figure
+Pid
+	2001	-	Size (Board)
+	2002	-	X-Range (Board)
+	2003	-	Y-Range (Board)
+	2004	-	X-koordinate (Field)
+	2005	-	Y-koordinate (Field)
+	2006	-	HasFigure (Field)
+	2007	-	Color (Field, Figure)
+Fid
+	3001	-	Delete
+	3002	-	ChangeColor
+	3003	-	Attack
+	3005	-	CreateFigure

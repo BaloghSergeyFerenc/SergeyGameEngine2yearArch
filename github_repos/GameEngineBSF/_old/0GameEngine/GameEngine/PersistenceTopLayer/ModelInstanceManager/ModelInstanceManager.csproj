@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>PersistenceTopLayer.ModelInstanceManager</AssemblyName>
+    <RootNamespace>PersistenceTopLayer.ModelInstanceManager</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>C:\Users\balog\Desktop\GameEngine\_binaries\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="PersistenceTopLayer.IdentifierManager">
+      <HintPath>..\..\..\..\GameEngine\_binaries\netcoreapp2.1\PersistenceTopLayer.IdentifierManager.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>GameEngine.ContextLayer.ContextPool</AssemblyName>
+    <RootNamespace>GameEngine.ContextLayer.ContextPool</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\..\_Binaries\</OutputPath>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>GameEngine.PersistenceTopLayer.ConfigurationHandler</AssemblyName>
+    <RootNamespace>GameEngine.PersistenceTopLayer.ConfigurationHandler</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Facade\_Impl\" />
+    <Folder Include="Load\_Impl\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ContextLayer\ContextPool\ContextPool.csproj" />
+  </ItemGroup>
+
+</Project>

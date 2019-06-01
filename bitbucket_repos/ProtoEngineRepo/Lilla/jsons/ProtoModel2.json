@@ -1,0 +1,69 @@
+{
+	"Board": {
+		"Properties": {
+			"Size": "4",
+			"X-range": "2",
+			"Y-range": "2"
+		},
+		"Functions": [
+			"Delete",
+			"CreateFigure"
+		],
+		"Field": [{
+				"Properties": {
+					"X-coordinate": "1",
+					"Y-coordinate": "1",
+					"HasFigure": "true",
+					"Color": "Yellow"
+				},
+				"Functions": [
+					"Delete"
+				],
+				"Figure": {
+					"Properties": {
+						"Color": "Green"
+					},
+					"Functions": [
+						"Delete",
+						"ChangeColor",
+						"Attack",
+						"CreateFigure"
+					]
+				}
+			},
+			{
+				"Properties": {
+					"X-coordinate": "2",
+					"Y-coordinate": "1",
+					"HasFigure": "false",
+					"Color": "Yellow"
+				},
+				"Functions": [
+					"Delete"
+				]
+			},
+			{
+				"Properties": {
+					"X-coordinate": "1",
+					"Y-coordinate": "2",
+					"HasFigure": "false",
+					"Color": "Yellow"
+				},
+				"Functions": [
+					"Delete"
+				]
+			},
+			{
+				"Properties": {
+					"X-coordinate": "2",
+					"Y-coordinate": "2",
+					"HasFigure": "false",
+					"Color": "Yellow"
+				},
+				"Functions": [
+					"Delete"
+				]
+			}
+		]
+	}
+}

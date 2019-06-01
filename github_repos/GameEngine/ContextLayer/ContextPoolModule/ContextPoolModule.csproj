@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>GameEngine.ContextLayer.ContextPoolModule</AssemblyName>
+    <RootNamespace>GameEngine.ContextLayer.ContextPoolModule</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\..\_Binaries\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\RealPersistenceLayer\ConfigurationPersistence\ConfigurationPersistence.csproj" />
+    <ProjectReference Include="..\ContextPool\ContextPool.csproj" />
+  </ItemGroup>
+
+</Project>

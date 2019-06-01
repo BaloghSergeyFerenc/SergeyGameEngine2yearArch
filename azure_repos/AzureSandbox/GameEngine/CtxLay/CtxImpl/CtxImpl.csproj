@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>GameEngine.CtxLay.CtxImpl</AssemblyName>
+    <RootNamespace>GameEngine.CtxLay.CtxImpl</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\..\__out</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\LayA\ModA\ModA.csproj" />
+    <ProjectReference Include="..\..\LayB\ModB\ModB.csproj" />
+    <ProjectReference Include="..\CtxItf\CtxItf.csproj" />
+  </ItemGroup>
+
+</Project>

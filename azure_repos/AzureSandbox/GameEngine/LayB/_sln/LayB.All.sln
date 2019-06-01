@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModB", "..\ModB\ModB.csproj", "{99C74F2E-5B0F-4B7F-8C9F-590D39B52B5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_test", "_test", "{1D3B59A5-6D27-44B4-896C-6B444A0E1CD0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTest.ModB", "..\_test\UnitTest.ModB\UnitTest.ModB.csproj", "{B890DACE-9869-47C8-B0F7-31E19A043736}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99C74F2E-5B0F-4B7F-8C9F-590D39B52B5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99C74F2E-5B0F-4B7F-8C9F-590D39B52B5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99C74F2E-5B0F-4B7F-8C9F-590D39B52B5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99C74F2E-5B0F-4B7F-8C9F-590D39B52B5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B890DACE-9869-47C8-B0F7-31E19A043736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B890DACE-9869-47C8-B0F7-31E19A043736}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B890DACE-9869-47C8-B0F7-31E19A043736}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B890DACE-9869-47C8-B0F7-31E19A043736}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B890DACE-9869-47C8-B0F7-31E19A043736} = {1D3B59A5-6D27-44B4-896C-6B444A0E1CD0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8681209-1936-4BE7-849E-EBAF81AAD708}
+	EndGlobalSection
+EndGlobal

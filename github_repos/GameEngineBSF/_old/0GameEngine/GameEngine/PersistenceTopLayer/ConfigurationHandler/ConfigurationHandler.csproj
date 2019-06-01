@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>PersistenceTopLayer.ConfigurationHandler</AssemblyName>
+    <RootNamespace>PersistenceTopLayer.ConfigurationHandler</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>C:\Users\balog\Desktop\GameEngine\_binaries\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\RealPersistenceLayer\ConfigurationPersistence\ConfigurationPersistence.csproj" />
+    <ProjectReference Include="..\ModelInstanceManager\ModelInstanceManager.csproj" />
+  </ItemGroup>
+
+</Project>

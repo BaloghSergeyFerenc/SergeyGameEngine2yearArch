@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>PersistenceTopLayer.IdentifierManager</AssemblyName>
+    <RootNamespace>PersistenceTopLayer.IdentifierManager</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>C:\Users\balog\Desktop\GameEngine\_binaries\</OutputPath>
+  </PropertyGroup>
+
+</Project>

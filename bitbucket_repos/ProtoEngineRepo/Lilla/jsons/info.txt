@@ -1,0 +1,5 @@
+General json description:
+https://tools.ietf.org/id/draft-ietf-netmod-yang-json-00.html
+
+Validator: 
+https://jsonlint.com/
